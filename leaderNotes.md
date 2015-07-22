@@ -181,3 +181,22 @@ Events are things that happen in the game that cause some kind of action or resp
 8. Add another key that will stop the hero when the key is released
 
 #### Four way movement (Activity)
+1. _Open up_ `project2.stencyl`
+2. Run the game, the hero won't move
+3. Open up the Actor Tab called Hero
+4. Go to the Events page, you'll see something similar to what we just looked at
+
+Let's make him drift towards the right constantly
+
+1. Use `set x-speed` under `Actor` > `Motion` to set his speed to 10. This will make him constantly move towards the right.
+2. Run the game and see what happens!
+
+Now lets add a key press to make him move
+
+1. Use `control is down` under `User Input`.
+	* Use an `If` statement with `User input` to construct something to make the character move only on the right control being pressed.
+	* Use an `Otherwise` statement to set the x-speed back to 0.
+2. _Now make them move left if the `<` key is pressed._
+3. _Now make the hero move up and down using the `^` and `v` keys._
+
+What did we just do? Re-cover the logic flow, show the solution to anyone that didn't understand it and re-cover it just to be sure.
