@@ -103,6 +103,8 @@ Normally, jumping on an enemy would kill it but we don't have that behaviour yet
 2. Configure the Stompable Ground fields to `Enemies`.
 3. Run the game and see if you can kill the enemy!
 
+**_End of part one._**
+
 ## Second game, this time with more code!
 This is an introduction into "logical thinking" though programming. We'll begin to learn some of the following:
 
@@ -200,3 +202,8 @@ Now lets add a key press to make him move
 3. _Now make the hero move up and down using the `^` and `v` keys._
 
 What did we just do? Re-cover the logic flow, show the solution to anyone that didn't understand it and re-cover it just to be sure.
+
+**_End of part 2_.**
+
+## FAQ
+Frequently asked questions will be noted down here
